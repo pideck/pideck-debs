@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 08 Sep 2016 11:41:45 +0100
+Source: pideck
+Binary: pideck
+Architecture: source
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Daniel James <daniel@64studio.com>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ pideck     - open-source DVS software & touchscreen interface
+Changes:
+ pideck (0.1-1) unstable; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ f6b052b7397c676e7f41edc6e1dde6afec262edb 1531 pideck_0.1-1.dsc
+ bf105039deb3aad162746186762639fccd6ba90c 21690 pideck_0.1-1.tar.gz
+Checksums-Sha256:
+ c69ee26e419bc1b11be28f9ec56f41b712555ce95cb7aaa118810be8f39456fa 1531 pideck_0.1-1.dsc
+ b0cb20108c89e8cd6406b9fbd864b8ed99fc5de1912ac0453da8851d1c67b936 21690 pideck_0.1-1.tar.gz
+Files:
+ f9e6b6c4b6bd8ce747493f0db8350b3e 1531 sound extra pideck_0.1-1.dsc
+ 7779d7c5e43d7319c2b2e0a51284abdf 21690 sound extra pideck_0.1-1.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJX0UtcAAoJEPMBfwuJgvD0XKAP/2N3TbfSdCDMNC1FOF7wNKLo
+ORnsgqc3eqm+wrC8hXcpcgiTv3na5QEcg9y6j5esMGeNhEKJqoWYaBgQPoa/m3NS
+ncB1+AmdmEFeo17choxFfZR5FrvZsmpWO7XMXMgRiA61MLx5aSMd4+RiPJYJpmnU
+twAqtScUKeDT+qhm0V9VMXMPPdySI+rt0tKEZpbIdkFJQi/c9LNqBwUpbNVaKwqt
+jnPd4B6QVcosuAm2IDAzs10CbnmwhRqwZLZTvwssxklKk7l8D/aN3oXuTJnTAZ2Y
+3GtzHKViAhaWlVztvoBrDHyiBd5a3zpD/85bjLLwAB2G7Qfh1ZMsBmSnW2lyz97h
+vEzgyJt0c7LDgBX1ecXhvxxTa+76L/2C7cTumobSku7jyyrfoOeMkiPOLFRyiCgj
+3kmpmzAqC7PENn+NWIiZbJsmcC6jW1NMeuu+32ljCtRocAluKY/+RQxabTFE0Jyt
+elaBLT5MA4iKfv6Hw9eI0Kmw9XHPb5S0369cCUMcmwb2mw8Pt/8Iab6C7hs1Eb1h
+qJJrWK5tv3GCZxE9NNyS1UAx5kOf16y7Vrm+cI2tH1qJcW/Y+ed5YAZFOs03MiM3
+hky7gb3ndTV4TSAp+oYEM9SR3XNeT8iKMTp4mnnCP6PefcGRH5YyB8HJyVknX9iS
+meHl2CyWBBLzJBF/w2uR
+=pjQs
+-----END PGP SIGNATURE-----
