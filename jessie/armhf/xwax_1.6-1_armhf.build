@@ -1,7 +1,7 @@
 I: using fakeroot in build.
 I: pbuilder: network access will be disabled during build
-I: Current time: Thu Sep  8 11:29:01 BST 2016
-I: pbuilder-time-stamp: 1473330541
+I: Current time: Fri Sep 30 15:46:22 BST 2016
+I: pbuilder-time-stamp: 1475246782
 I: Building the build Environment
 I: extracting base tarball [/home/daniel/pbuilder/jessie-armhf-base.tgz]
 I: creating local configuration
@@ -86,10 +86,8 @@ The following NEW packages will be installed:
   x11proto-xf86vidmode-dev{a} xorg-sgml-doctools{a} xtrans-dev{a} 
   zlib1g-dev{a} 
 0 packages upgraded, 145 newly installed, 0 to remove and 0 not upgraded.
-Need to get 868 kB/34.4 MB of archives. After unpacking 110 MB will be used.
+Need to get 0 B/34.4 MB of archives. After unpacking 110 MB will be used.
 Writing extended state information...
-Get: 1 http://ftp.debian.org/debian/ jessie-proposed-updates/main libssl1.0.0 armhf 1.0.1t-1+deb8u3 [868 kB]
-Fetched 868 kB in 0s (1868 kB/s)
 debconf: delaying package configuration, since apt-utils is not installed
 Selecting previously unselected package libjson-c2:armhf.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11841 files and directories currently installed.)
@@ -99,8 +97,8 @@ Selecting previously unselected package libpipeline1:armhf.
 Preparing to unpack .../libpipeline1_1.4.0-1_armhf.deb ...
 Unpacking libpipeline1:armhf (1.4.0-1) ...
 Selecting previously unselected package libssl1.0.0:armhf.
-Preparing to unpack .../libssl1.0.0_1.0.1t-1+deb8u3_armhf.deb ...
-Unpacking libssl1.0.0:armhf (1.0.1t-1+deb8u3) ...
+Preparing to unpack .../libssl1.0.0_1.0.1t-1+deb8u5_armhf.deb ...
+Unpacking libssl1.0.0:armhf (1.0.1t-1+deb8u5) ...
 Selecting previously unselected package groff-base.
 Preparing to unpack .../groff-base_1.22.2-8_armhf.deb ...
 Unpacking groff-base (1.22.2-8) ...
@@ -534,7 +532,7 @@ Unpacking libsdl-ttf2.0-dev:armhf (2.0.11-3) ...
 Processing triggers for systemd (215-17+deb8u5) ...
 Setting up libjson-c2:armhf (0.11-4) ...
 Setting up libpipeline1:armhf (1.4.0-1) ...
-Setting up libssl1.0.0:armhf (1.0.1t-1+deb8u3) ...
+Setting up libssl1.0.0:armhf (1.0.1t-1+deb8u5) ...
 Setting up groff-base (1.22.2-8) ...
 Setting up bsdmainutils (9.0.6) ...
 update-alternatives: using /usr/bin/bsd-write to provide /usr/bin/write (write) in auto mode
@@ -713,20 +711,16 @@ Setting up libfakeroot:armhf (1.20.2-1) ...
 Setting up fakeroot (1.20.2-1) ...
 update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
 I: Copying back the cached apt archive contents
-I: new cache content libssl1.0.0_1.0.1t-1+deb8u3_armhf.deb added
 I: Copying source file
-I: copying [xwax_1.6-1.dsc]
-I: copying [./xwax_1.6.orig.tar.gz]
-I: copying [./xwax_1.6-1.debian.tar.xz]
+I: copying [../xwax_1.6-1.dsc]
+I: copying [../xwax_1.6-1.tar.gz]
 I: Extracting source
 gpgv: keyblock resource `/tmp/buildd/.gnupg/trustedkeys.gpg': file open error
-gpgv: Signature made Thu Sep  8 10:16:02 2016 UTC using RSA key ID 8982F0F4
+gpgv: Signature made Fri Sep 30 14:45:25 2016 UTC using RSA key ID 8982F0F4
 gpgv: Can't check signature: public key not found
 dpkg-source: warning: failed to verify signature on ./xwax_1.6-1.dsc
 dpkg-source: info: extracting xwax in xwax-1.6
-dpkg-source: info: unpacking xwax_1.6.orig.tar.gz
-dpkg-source: info: unpacking xwax_1.6-1.debian.tar.xz
-dpkg-source: info: applying simplify-keyboard-shortcuts
+dpkg-source: info: unpacking xwax_1.6-1.tar.gz
 I: Building the package
 W: no hooks of type A found -- ignoring
 I: Running cd tmp/buildd/*/ && env PATH="/usr/sbin:/usr/bin:/sbin:/bin" dpkg-buildpackage -us -uc  -rfakeroot
@@ -749,9 +743,9 @@ rm -f xwax \
 make[1]: Leaving directory '/tmp/buildd/xwax-1.6'
    dh_clean -O--parallel
  dpkg-source -b xwax-1.6
-dpkg-source: info: using source format `3.0 (quilt)'
-dpkg-source: info: building xwax using existing ./xwax_1.6.orig.tar.gz
-dpkg-source: info: building xwax in xwax_1.6-1.debian.tar.xz
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building xwax in xwax_1.6-1.tar.gz
 dpkg-source: info: building xwax in xwax_1.6-1.dsc
  debian/rules build
 dh build --parallel
@@ -771,53 +765,71 @@ make[1]: Entering directory '/tmp/buildd/xwax-1.6'
 /usr/bin/make PREFIX=/usr EXECDIR=/usr/share/xwax
 make[2]: Entering directory '/tmp/buildd/xwax-1.6'
 ./mkversion -r
-./mkversion: Version number is not known
-./mkversion: Version number is not known
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD  -DWITH_ALSA -DWITH_JACK -DEXECDIR=\"/usr/share/xwax\" -DVERSION=\"\"  -c -o xwax.o xwax.c
-./mkversion: Version number is not known
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o controller.o controller.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o cues.o cues.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o deck.o deck.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o device.o device.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o dummy.o dummy.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o excrate.o excrate.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o external.o external.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o index.o index.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD  -c -o interface.o interface.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o library.o library.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o listbox.o listbox.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o lut.o lut.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o player.o player.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o realtime.o realtime.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o rig.o rig.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o selector.o selector.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o status.o status.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o thread.o thread.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o timecoder.o timecoder.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o track.o track.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o alsa.o alsa.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o dicer.o dicer.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o midi.o midi.c
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o jack.o jack.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now -pthread  xwax.o controller.o cues.o deck.o device.o dummy.o excrate.o external.o index.o interface.o library.o listbox.o lut.o player.o realtime.o rig.o selector.o status.o thread.o timecoder.o track.o alsa.o dicer.o midi.o jack.o  `sdl-config --libs` -lSDL_ttf  -lasound -ljack -lm -o xwax
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o mktimecode.o mktimecode.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  mktimecode.o  -lm -o mktimecode
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/cues.o tests/cues.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/cues.o cues.o   -o tests/cues
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/external.o tests/external.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/external.o external.o   -o tests/external
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/library.o tests/library.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now -pthread  tests/library.o excrate.o external.o index.o library.o rig.o status.o thread.o track.o   -o tests/library
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/observer.o tests/observer.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/observer.o   -o tests/observer
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/status.o tests/status.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/status.o status.o   -o tests/status
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/timecoder.o tests/timecoder.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/timecoder.o lut.o timecoder.o   -o tests/timecoder
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/track.o tests/track.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now -pthread  tests/track.o excrate.o external.o index.o library.o rig.o status.o thread.o track.o  -lm -o tests/track
-cc -g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/ttf.o tests/ttf.c
-cc -fPIE -pie -Wl,-z,relro -Wl,-z,now  tests/ttf.o  `sdl-config --libs` -lSDL_ttf -o tests/ttf
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD  -DWITH_ALSA -DWITH_JACK -DEXECDIR=\"/usr/share/xwax\" -DVERSION=\"1.6-1-geb1b3fb\"  -c -o xwax.o xwax.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o controller.o controller.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o cues.o cues.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o deck.o deck.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o device.o device.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o dummy.o dummy.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o excrate.o excrate.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o external.o external.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o index.o index.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD  -c -o interface.o interface.c
+interface.c: In function 'draw_deck':
+interface.c:1029:37: warning: unused variable 'status' [-Wunused-variable]
+     struct rect track, top, meters, status, rest, lower;
+                                     ^
+interface.c: In function 'draw_library':
+interface.c:1329:43: warning: unused variable 'rrecords' [-Wunused-variable]
+     struct rect rsearch, rlists, rcrates, rrecords;
+                                           ^
+interface.c:1329:34: warning: unused variable 'rcrates' [-Wunused-variable]
+     struct rect rsearch, rlists, rcrates, rrecords;
+                                  ^
+interface.c: At top level:
+interface.c:991:13: warning: 'draw_deck_status' defined but not used [-Wunused-function]
+ static void draw_deck_status(SDL_Surface *surface,
+             ^
+interface.c:1082:13: warning: 'draw_status' defined but not used [-Wunused-function]
+ static void draw_status(SDL_Surface *sf, const struct rect *rect)
+             ^
+interface.c:1269:13: warning: 'draw_crates' defined but not used [-Wunused-function]
+ static void draw_crates(SDL_Surface *surface, const struct rect rect,
+             ^
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o library.o library.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o listbox.o listbox.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o lut.o lut.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o player.o player.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o realtime.o realtime.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o rig.o rig.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o selector.o selector.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o status.o status.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o thread.o thread.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o timecoder.o timecoder.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o track.o track.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o alsa.o alsa.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o dicer.o dicer.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o midi.o midi.c
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o jack.o jack.c
+cc -Wl,-z,relro -pthread  xwax.o controller.o cues.o deck.o device.o dummy.o excrate.o external.o index.o interface.o library.o listbox.o lut.o player.o realtime.o rig.o selector.o status.o thread.o timecoder.o track.o alsa.o dicer.o midi.o jack.o  `sdl-config --libs` -lSDL_ttf  -lasound -ljack -lm -o xwax
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD  -c -o mktimecode.o mktimecode.c
+cc -Wl,-z,relro  mktimecode.o  -lm -o mktimecode
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/cues.o tests/cues.c
+cc -Wl,-z,relro  tests/cues.o cues.o   -o tests/cues
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/external.o tests/external.c
+cc -Wl,-z,relro  tests/external.o external.o   -o tests/external
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/library.o tests/library.c
+cc -Wl,-z,relro -pthread  tests/library.o excrate.o external.o index.o library.o rig.o status.o thread.o track.o   -o tests/library
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/observer.o tests/observer.c
+cc -Wl,-z,relro  tests/observer.o   -o tests/observer
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/status.o tests/status.c
+cc -Wl,-z,relro  tests/status.o status.o   -o tests/status
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/timecoder.o tests/timecoder.c
+cc -Wl,-z,relro  tests/timecoder.o lut.o timecoder.o   -o tests/timecoder
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/track.o tests/track.c
+cc -Wl,-z,relro -pthread  tests/track.o excrate.o external.o index.o library.o rig.o status.o thread.o track.o  -lm -o tests/track
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wall `sdl-config --cflags` -D_FORTIFY_SOURCE=2 -MMD -I.  -c -o tests/ttf.o tests/ttf.c
+cc -Wl,-z,relro  tests/ttf.o  `sdl-config --libs` -lSDL_ttf -o tests/ttf
 make[2]: Leaving directory '/tmp/buildd/xwax-1.6'
 make[1]: Leaving directory '/tmp/buildd/xwax-1.6'
    dh_auto_test -O--parallel
@@ -865,8 +877,8 @@ dpkg-deb: building package `xwax' in `../xwax_1.6-1_armhf.deb'.
  dpkg-genchanges  >../xwax_1.6-1_armhf.changes
 dpkg-genchanges: including full source code in upload
  dpkg-source --after-build xwax-1.6
-dpkg-buildpackage: full upload (original source is included)
-I: user script /var/cache/pbuilder/build//26948/tmp/hooks/B90lintian starting
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+I: user script /var/cache/pbuilder/build//7879/tmp/hooks/B90lintian starting
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -1022,15 +1034,17 @@ Setting up patchutils (0.3.3-1) ...
 Setting up t1utils (1.38-4) ...
 Setting up lintian (2.5.30+deb8u4) ...
 +++ lintian output +++
+W: xwax source: native-package-with-dash-version
 W: xwax source: newer-standards-version 3.9.8 (current is 3.9.6)
+W: xwax source: debian-watch-file-in-native-package
 I: xwax: hyphen-used-as-minus-sign usr/share/man/man1/xwax.1.gz:284
 +++ end of lintian output +++
-I: user script /var/cache/pbuilder/build//26948/tmp/hooks/B90lintian finished
+I: user script /var/cache/pbuilder/build//7879/tmp/hooks/B90lintian finished
 I: Copying back the cached apt archive contents
 I: unmounting dev/pts filesystem
 I: unmounting run/shm filesystem
 I: unmounting proc filesystem
 I: cleaning the build env 
-I: removing directory /var/cache/pbuilder/build//26948 and its subdirectories
-I: Current time: Thu Sep  8 11:47:22 BST 2016
-I: pbuilder-time-stamp: 1473331642
+I: removing directory /var/cache/pbuilder/build//7879 and its subdirectories
+I: Current time: Fri Sep 30 16:04:28 BST 2016
+I: pbuilder-time-stamp: 1475247868

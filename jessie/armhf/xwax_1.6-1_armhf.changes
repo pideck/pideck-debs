@@ -25,17 +25,14 @@ Changes:
    * Improve format of watch file to sort betas correctly
    * Add myself to the list of uploaders
 Checksums-Sha1:
- 39b2ada1605bc37343ebb88804af81d8334f38ba 1128 xwax_1.6-1.dsc
- 7906a9b32fe842098187dd17595044948211c938 80134 xwax_1.6.orig.tar.gz
- 27cd52bc09c478c7428061b960bf0ea8af1a06fc 4920 xwax_1.6-1.debian.tar.xz
- c1ec1c6bb889efab9418c363e8875d643efb4ce6 42696 xwax_1.6-1_armhf.deb
+ 40caadb66b661c900f2a16a1e1c3e08cef2458a3 879 xwax_1.6-1.dsc
+ ffdf14e62501155ed6de109995a2e50a6d942c52 86934 xwax_1.6-1.tar.gz
+ 13458e43a01629bba768a5b171d9b002572ef323 40074 xwax_1.6-1_armhf.deb
 Checksums-Sha256:
- 141667cec8a99ae1c7246a1bc1be1bfeaa1f7f3ded969e822254030ca6bdc69d 1128 xwax_1.6-1.dsc
- fc158b82cf73a800407fe5d6d7406713c7b3c06c5ed3288be39cdc2a8dcb68b4 80134 xwax_1.6.orig.tar.gz
- e2192efa6bfbf2624ba6b36c4722bfc650681753a2e4097a0e42ca8502f0e3e0 4920 xwax_1.6-1.debian.tar.xz
- c9c732f2325b450c316cde788b92e4adcf7d164d1487de89600b9fa77f9d506d 42696 xwax_1.6-1_armhf.deb
+ b5e8bc68a47fd97a6ac8f0e745b2c5e88ad312ca66c7918ad304031b929ad8c1 879 xwax_1.6-1.dsc
+ b08eccb836c21940f0bb30340f8044a9ee6ef65b4800da039ce57cfb35819805 86934 xwax_1.6-1.tar.gz
+ 9cfdc3f73b496f0a05072f44ff80fa8022e94cb01da916e5e4ab83094de74dca 40074 xwax_1.6-1_armhf.deb
 Files:
- 3e4618edc283e81d8f11d7f8aa2f2b47 1128 sound extra xwax_1.6-1.dsc
- dbcd281f8ad372b54db6f772950fbb98 80134 sound extra xwax_1.6.orig.tar.gz
- 2c51e7069fc3597b03a8ccac8ea3e855 4920 sound extra xwax_1.6-1.debian.tar.xz
- 55347f3da4782bb8213d4734a7229e01 42696 sound extra xwax_1.6-1_armhf.deb
+ 201cacc14b4d69db21cb9c8ca293d378 879 sound extra xwax_1.6-1.dsc
+ fb084b359f4884f1887fb89b22cac282 86934 sound extra xwax_1.6-1.tar.gz
+ 75239f789e33c994c36b3cda83d98c2e 40074 sound extra xwax_1.6-1_armhf.deb

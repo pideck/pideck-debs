@@ -1,4 +1,4 @@
-Format: 3.0 (quilt)
+Format: 1.0
 Source: xwax
 Binary: xwax
 Architecture: any
@@ -13,11 +13,8 @@ Build-Depends: debhelper (>= 9), libasound2-dev [linux-any], libjack-dev, libsdl
 Package-List:
  xwax deb sound extra arch=any
 Checksums-Sha1:
- 7906a9b32fe842098187dd17595044948211c938 80134 xwax_1.6.orig.tar.gz
- 27cd52bc09c478c7428061b960bf0ea8af1a06fc 4920 xwax_1.6-1.debian.tar.xz
+ ffdf14e62501155ed6de109995a2e50a6d942c52 86934 xwax_1.6-1.tar.gz
 Checksums-Sha256:
- fc158b82cf73a800407fe5d6d7406713c7b3c06c5ed3288be39cdc2a8dcb68b4 80134 xwax_1.6.orig.tar.gz
- e2192efa6bfbf2624ba6b36c4722bfc650681753a2e4097a0e42ca8502f0e3e0 4920 xwax_1.6-1.debian.tar.xz
+ b08eccb836c21940f0bb30340f8044a9ee6ef65b4800da039ce57cfb35819805 86934 xwax_1.6-1.tar.gz
 Files:
- dbcd281f8ad372b54db6f772950fbb98 80134 xwax_1.6.orig.tar.gz
- 2c51e7069fc3597b03a8ccac8ea3e855 4920 xwax_1.6-1.debian.tar.xz
+ fb084b359f4884f1887fb89b22cac282 86934 xwax_1.6-1.tar.gz
