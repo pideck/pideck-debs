@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 10 Oct 2016 15:32:38 +0100
+Source: pideck
+Binary: pideck
+Architecture: source armhf
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Daniel James <daniel@64studio.com>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ pideck     - open-source DVS software & touchscreen interface
+Changes:
+ pideck (0.1-1) unstable; urgency=medium
+ .
+   * Initial release. Go nuts!
+Checksums-Sha1:
+ 1a2cfb84016fd4e4ed256c7587abedae2dd17e1f 1528 pideck_0.1-1.dsc
+ 0293fcc86f1c0e207e86493fd578388528b42c0b 4055 pideck_0.1-1.tar.gz
+ 9ef81a855c96f001c70ca9ca29716c7241b8626a 3932 pideck_0.1-1_armhf.deb
+Checksums-Sha256:
+ 7a82354eaafdc66529453cf82e40b939310e61db11a7377a09eff6bb291564d1 1528 pideck_0.1-1.dsc
+ 687943af728f2850b3ec10b0585dce6c0d2568e2181fdd825e36d73f26b8badf 4055 pideck_0.1-1.tar.gz
+ a852cf1b4ddc5d12524530938b32b603cb5d1e8e592dff3f974f822d71c2db98 3932 pideck_0.1-1_armhf.deb
+Files:
+ 520f42a1a7741851df77f648ba585dc0 1528 sound extra pideck_0.1-1.dsc
+ 021b058e02265af1350aa52ce579dd00 4055 sound extra pideck_0.1-1.tar.gz
+ bb4eefd6e8edc8ad172eda7dbc5d6996 3932 sound extra pideck_0.1-1_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJX+6dKAAoJEPMBfwuJgvD09fYP/1lQ8ssYYfkboWX3JKGFmH/r
+Uy4JYFdCRb13PzhFpf0kCxfE8gASIYHqsDLQmLabXoOZcg3rBApWfTXVvOIs3++r
+W7qxXEyod6nQQumz1e4XBDkxKj35iK4877nRXyzKtxL2mYdhhXUBot8HVVb/xv67
+5xu46RwNjlJp7tSrTKEhYYqNA878my6OZaGBkf2XE/8TWtLegxLA/qN99WOFpWh6
+f3/k6dhh7wPCbpngbsYyziS3Bo3BDw4zKMJ9b6VRXHXcw1RsV9sGJY7H3fHU1iw2
+j0PrOoyzW3EbsxFjAvXEAv5LtviM9m6L1AS8eJtFpjj8F4OL5F7XWHdGrHCZhqmS
+Sc6uWAWo/4n+bWyjXkHHQlCmn+HxUlNSz9q82p0RYhovVO0aJqn89etPzLyoFWgL
+TMzOKXst3IwI762CfiITpXWnwgxBWChJHI4F/eRPIqXYPQxQZcj78+GB6U4Gi9Kz
+lhnSgPh/BDa8AqKqVjrMQ/RHsjBanuYIZ+irCD/n2mi9ztNxnvEZxMP90zzcGnSu
+LfO0G7XNzcJsVSREZOj9GPPxB1jMxe+ZwsmyRkVQg7S5mo1NyeIFbniZ+73ZMD2H
+hV2fIr47siX3r8JrwHQkKTMX2PhTZeGvJH+2UWhO0emEgj/lw2KTDNe0yCGPRuWb
+7k89nkyplTpszZ8KboSu
+=LLaK
+-----END PGP SIGNATURE-----

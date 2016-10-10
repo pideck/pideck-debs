@@ -15,26 +15,26 @@ Vcs-Git: https://github.com/pideck/pideck.git
 Package-List:
  pideck deb sound extra arch=any
 Checksums-Sha1:
- 16d519e962e225e742d3462fcc756d0fe57ad2a9 3604 pideck_0.1-1.tar.gz
+ 0293fcc86f1c0e207e86493fd578388528b42c0b 4055 pideck_0.1-1.tar.gz
 Checksums-Sha256:
- 062e2f1930c6ba6b6a5854dfbfd9d9deb99b8c35cc5bb5671b4e5a29299898bf 3604 pideck_0.1-1.tar.gz
+ 687943af728f2850b3ec10b0585dce6c0d2568e2181fdd825e36d73f26b8badf 4055 pideck_0.1-1.tar.gz
 Files:
- 401408ab0c8c65b1b5fa035cb094e930 3604 pideck_0.1-1.tar.gz
+ 021b058e02265af1350aa52ce579dd00 4055 pideck_0.1-1.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJX7nASAAoJEPMBfwuJgvD0QVEP/2CsL9XXttP8Vsnsz4pu0ucx
-nbjOQUofwv627N8sFo0uGkHk/u48Z8QavHknnYwtSMrRtsIsXrXhvrvidS5Vd7m2
-JlW1EZlz3ZenpXs+IFkiu9BXiR8gX1AzczU0xWEq4tM6Chk/i0C5gItAEHNyNUdR
-hh50S4RRTQJZZ78aMPCwCvGyoCnO01IwAmLAoQFjLgaO5XL4Rh/qe+c/E5cbgTMc
-b45a1/xhPX3DlUCTUgUnN9B0/+F2vx6OR2o85FhQ5gXIYMVCl2nxWcbeziY336yk
-IvJXPZTRl6RXy6O7bPKeSdf8LBZNmPJFq3p69sLqvHTmMamSsBq4z2aE92nMeZit
-5IYtENyKu1OlsgK3sm2HZEQu4k7CEvbmKPjOnvb7D6KOyjwnymtfyyx50/vD2nGb
-CLMPbUJHxIlQ4S8ktWBnRhlCmjm1fLjJfTpa0ieoWELyojxPpo3ItHqUzxC4SPRq
-dq/7qzIw7Cor+GwYf+1O9Uv1oCIeEOaKaSj+UAw/zksFCktGoDfyvyQqEN7cI7Yc
-LmiWintlzju2ZX2vA5i1u//NbOEC0MuWu9LSzLcgVBR8kXwzZAUTNNAeKOhP7DTz
-VPt5FNQOwF8TPzgGrRzbTyzaEhYeuzEtrdlxKNuluCnos/LfDqwfezusWTGyXiKE
-gJEUIAkPoJhJjZEnVvw7
-=fLAR
+iQIcBAEBCAAGBQJX+6dBAAoJEPMBfwuJgvD0giQP/isZt04Ajljqzb7pPx1tp8C2
+ZcPJ903oZeYHU2gR2cpqpRGApAiVSBJfOAqTij6a6qXiu8Q4wJKQ+BoYpP4ElAVj
+R2SlUrZ5gek/5ghxTiAKEVG4SKqHwJJJ+xzQeWePkzPU3ELHZR3gUKmk8aD7JTdV
+wT7tC1Fy+Ml0rcMqfZyytx8zohXJpRf/FTtQBI5v76JO/rMd2Pa5IBapLCE/NrnS
+vp6PW8KePwy1n9ZiYId2/nskGrOGFmwOEqhwiTjGIg9RFoTG9msIwA59eFuivsLO
+f67NKsdt3n4ZAaVWwV/CwPQRKro3nwhMK2VH6ABv3PQAG/9T6zF/lL2mKszcWk3u
+7IthUQUht+Vle78V/J/1+u3XzQlXjbEGulK5+khsGl5QSUpcZW5Co1G852GFgTAr
+a5BNBikxdGEiqxNE84Dxzhr/fOoX84gjI6V8ANC6E9C9DkyvwHHWDsPq2m7LIOUl
+Q/CUdXkV7I8r4u2FIxmOj/z+SwiCPiywgVy/N7P5pBkjtO1OCnkqyd/knQYC+dDM
+luPlEjQoYNKlvWNbhq4TkO7CCSmSCdn5AVfjjdYqeCy7Exw/ItzeWvk6DO7VT9VD
+fPRvvz5AFzUbTD5OqtIQpPtp8Mps/5xwpUw0HKgKkgbYtJxI62xKc4xhy+Ah8OYk
+AGuS0eMqSGkMSA6sL4Dc
+=8JFe
 -----END PGP SIGNATURE-----
