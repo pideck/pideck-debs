@@ -1,0 +1,27 @@
+[1;33mW: The following options specified after the .dsc will be ignored: [--debootstrap qemu-debootstrap][0m
+[0mI: using fakeroot in build.[0m
+[0mI: pbuilder: network access will be disabled during build[0m
+[0mI: Current time: Fri May 25 16:57:53 BST 2018[0m
+[0mI: pbuilder-time-stamp: 1527263874[0m
+[0mI: Building the build Environment[0m
+[0mI: extracting base tarball [/home/daniel/pbuilder/buster-armhf-base.tgz][0m
+[0mI: copying local configuration[0m
+[1;33mW: --override-config is not set; not updating apt.conf Read the manpage for details.[0m
+[0mI: mounting /proc filesystem[0m
+[0mI: mounting /sys filesystem[0m
+[0mI: creating /{dev,run}/shm[0m
+[0mI: mounting /dev/pts filesystem[0m
+[0mI: redirecting /dev/ptmx to /dev/pts/ptmx[0m
+[0mI: policy-rc.d already exists[0m
+[0mI: Obtaining the cached apt archive contents[0m
+[0mI: Copying source file[0m
+[0mI: copying [xwax_1.7-2~pideck.dsc][0m
+[0mI: copying [./xwax_1.7-2~pideck.tar.gz][0m
+cp: cannot stat './xwax_1.7-2~pideck.tar.gz': No such file or directory
+[0mI: unmounting dev/ptmx filesystem[0m
+[0mI: unmounting dev/pts filesystem[0m
+[0mI: unmounting dev/shm filesystem[0m
+[0mI: unmounting proc filesystem[0m
+[0mI: unmounting sys filesystem[0m
+[0mI: cleaning the build env [0m
+[0mI: removing directory /var/cache/pbuilder/build/28835 and its subdirectories[0m

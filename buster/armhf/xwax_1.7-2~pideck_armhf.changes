@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 25 May 2018 14:37:51 +0100
+Source: xwax
+Binary: xwax
+Architecture: source armhf
+Version: 1.7-2~pideck
+Distribution: unstable
+Urgency: medium
+Maintainer: Daniel James <daniel@64studio.com>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ xwax       - open-source vinyl emulation software for Linux
+Changes:
+ xwax (1.7-2~pideck) unstable; urgency=medium
+ .
+   * Modifications for PiDeck project
+Checksums-Sha1:
+ d457e08e3f8717b918b97ff4f59b2e517ee3b147 600 xwax_1.7-2~pideck.dsc
+ cc555de627e8f253ca535dd12e6cd373f83efc35 2127616 xwax_1.7-2~pideck.tar.gz
+ 99dfc9a87b35c89b7a5371c121850aac99417eac 127648 xwax-dbgsym_1.7-2~pideck_armhf.deb
+ a71f418f6dbb2aea06fef545f12f688917f9ea80 8925 xwax_1.7-2~pideck_armhf.buildinfo
+ a713a9b7cb2f1e9f379a55e91d0f047066ab0d6b 42660 xwax_1.7-2~pideck_armhf.deb
+Checksums-Sha256:
+ 326f34ad431aaae70d95310bbb7d528151176285da29805b6b333046021a7557 600 xwax_1.7-2~pideck.dsc
+ be606d8cb011abf048cb40d1a8e2db5277a331dfbc77b8257604ea5272667c4b 2127616 xwax_1.7-2~pideck.tar.gz
+ c79389df663edd57918ffd6e8e2648b16ff8a874d76066567c185727c2d252f2 127648 xwax-dbgsym_1.7-2~pideck_armhf.deb
+ 059023aae802a005906aa1af75bdaace1fca214e2b6cd4814d07a93fbf4ce90e 8925 xwax_1.7-2~pideck_armhf.buildinfo
+ c2aa0aea9db051de90dbc4c8036c486f12f4341c6dd5d1e2cd2874fb96bd4ac0 42660 xwax_1.7-2~pideck_armhf.deb
+Files:
+ f977cb22361f2b6ed35a8f648bfa8cb9 600 sound optional xwax_1.7-2~pideck.dsc
+ 46c205a7609f22417e81b438e0ffd963 2127616 sound optional xwax_1.7-2~pideck.tar.gz
+ 48ec891a809b3c82a063bf69ba349322 127648 debug optional xwax-dbgsym_1.7-2~pideck_armhf.deb
+ 75663f27caa9491620fef27c8fc39c0f 8925 sound optional xwax_1.7-2~pideck_armhf.buildinfo
+ 420695383dae6c1a5ecb2d7c413da120 42660 sound optional xwax_1.7-2~pideck_armhf.deb
