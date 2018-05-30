@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 30 May 2018 16:41:44 +0100
+Source: pideck
+Binary: pideck
+Architecture: armhf
+Version: 0.2-2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Daniel James <daniel@64studio.com>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ pideck     - Setup scripts and touchscreen interface for PiDeck DVS
+Changes:
+ pideck (0.2-2) UNRELEASED; urgency=medium
+ .
+   * Implement changes added by Ximae
+   * Merge improvements from BennPaul
+   * Enhance bypass mode for Audioinjector card
+   * Support BPM scanning and library sorting
+Checksums-Sha1:
+ 1878c56661b2823dc641810f6687c02e91c9fab4 3782 pideck_0.2-2_armhf.buildinfo
+ 26ef8ec0eaed3655297d239f4230179cea904f9d 7572 pideck_0.2-2_armhf.deb
+Checksums-Sha256:
+ 7edcfa97abd59489ab7313c4daadc07fd3f2d88822fb482f4b14eee1ffc73c97 3782 pideck_0.2-2_armhf.buildinfo
+ 8299dccc39b8bc4d81fb46cb616bcf21783c35fe0e9a95351fc0af8d6c5d6334 7572 pideck_0.2-2_armhf.deb
+Files:
+ af9e99d4adf1782ae2a59fd2703d7fca 3782 sound extra pideck_0.2-2_armhf.buildinfo
+ 5dbc533e19aaa44ad53c3f271fa8588b 7572 sound extra pideck_0.2-2_armhf.deb
